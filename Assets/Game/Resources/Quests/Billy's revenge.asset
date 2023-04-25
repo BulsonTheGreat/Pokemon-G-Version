@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c26b7de605c05f43ac7774d754301d0, type: 3}
+  m_Name: Billy's revenge
+  m_EditorClassIdentifier: 
+  name: Billy's revenge
+  description: Defeat the trashtalking classmate
+  startDialog:
+    lines:
+    - Hey you!
+    - Remember Travis, that ugly green haired 6th grader?
+    - Apparentaly he played league with you yesterday.
+    - And now he's been talking mad s*it about you on facebook.
+    - Calling you a griefing ass jungler and saying that he'll beat tf out of you
+      on sight.
+    - Plus he also stole my lunch money.
+    - I'm not saying that I condone violence, but I'd do something about it if I
+      were you.
+    - Also if you give me back my money I'll give you something nice in return.
+    - I'll give you a VIP pass which will allow you to access the next floor.
+  inProgressDialog:
+    lines:
+    - Did you beat him yet?
+  endDialog:
+    lines:
+    - Finally, he deserved that.
+    - And here's your reward, put it to good use.
+  requiredItem:
+    item: {fileID: 11400000, guid: 39bfafb064c847c46a21343690ab0867, type: 2}
+  rewardItem:
+    item: {fileID: 11400000, guid: b2ee4a0cd79cfe44388c9e6005d5def1, type: 2}

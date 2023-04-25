@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Gogoat
+  m_EditorClassIdentifier: 
+  name: Gogoat
+  description: "The Mount Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: c1251cb58745f8f44af7e360fbdf3c42, type: 3}
+  backSprite: {fileID: 21300000, guid: 3a7d1d5a6a53f3e429c03c56b5b59a8e, type: 3}
+  menuSprite: {fileID: 21300000, guid: 71e06a2bbe6c8b64d9342c5954626dc6, type: 3}
+  type1: 4
+  type2: 0
+  maxHP: 123
+  attack: 100
+  defense: 97
+  spAttack: 62
+  spDefense: 81
+  speed: 68
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 80db8d9d82166d741a20ec21d60bd652, type: 2}
+  - moveBase: {fileID: 11400000, guid: 25ca3f3930ce1124c863e2575f19d83f, type: 2}
+  - moveBase: {fileID: 11400000, guid: 1ab9302dfde67674d932159010b429a2, type: 2}
+  - moveBase: {fileID: 11400000, guid: 0890edf4bf05a654a96c2205a76ac7f4, type: 2}

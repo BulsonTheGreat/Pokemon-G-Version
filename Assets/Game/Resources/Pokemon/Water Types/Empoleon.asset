@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Empoleon
+  m_EditorClassIdentifier: 
+  name: Empoleon
+  description: "The Emperor Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 5052f47edd0648c43a6373d21d54fbea, type: 3}
+  backSprite: {fileID: 21300000, guid: 9dbcddc3a894643498279cb48d25fd87, type: 3}
+  menuSprite: {fileID: 21300000, guid: d7b58c780b27ab544affcd1aa7d0702b, type: 3}
+  type1: 3
+  type2: 16
+  maxHP: 84
+  attack: 86
+  defense: 88
+  spAttack: 111
+  spDefense: 101
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: cb2416c72fed5e0479f3d0e5b9011460, type: 2}
+  - moveBase: {fileID: 11400000, guid: e4e63b9a052ad214aaaf979fb4cdd6ee, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4e92b90d1b3de354395a9acc61c73231, type: 2}
+  - moveBase: {fileID: 11400000, guid: b1dfdce395ad0184f84134dd6c829af7, type: 2}

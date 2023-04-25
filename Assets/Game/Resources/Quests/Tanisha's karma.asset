@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c26b7de605c05f43ac7774d754301d0, type: 3}
+  m_Name: Tanisha's karma
+  m_EditorClassIdentifier: 
+  name: Tanisha's karma
+  description: Do Jela a favor
+  startDialog:
+    lines:
+    - I'm so tired of that b*tch Tanisha.
+    - Always talking sh*t about me to our coworkers.
+    - And spreading all them lies.
+    - For real, keep it cute or keep that sh*t on mute.
+    - Or she's gonna get fought next time I see her.
+    - Well sadly, I need this job to pay my rent so I can't do it myself.
+    - But you can do it for me, right handsome?
+    - Don't forget to snatch her weave for me, I'll give you something nice in return
+      if you do.
+  inProgressDialog:
+    lines:
+    - What are you waiting for?
+    - Just run up on that b*tch.
+  endDialog:
+    lines:
+    - Periodt, that should shut her up for good.
+    - Here, give it to that soldier, he is one of my regulars.
+  requiredItem:
+    item: {fileID: 11400000, guid: d5f56d2067f169f4599dae78685c4a5a, type: 2}
+  rewardItem:
+    item: {fileID: 11400000, guid: 8efa897a1b96d914f94b3c37dab665c3, type: 2}

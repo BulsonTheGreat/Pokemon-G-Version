@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Abomasnow
+  m_EditorClassIdentifier: 
+  name: Abomasnow
+  description: "The Frost Tree Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 2897e04e8cdfd8f4f82f3da210e37087, type: 3}
+  backSprite: {fileID: 21300000, guid: 573939896bdde80478d1ec89b62a16ba, type: 3}
+  menuSprite: {fileID: 21300000, guid: 09e2b9a16c5312b4c8366c0e3626bced, type: 3}
+  type1: 4
+  type2: 15
+  maxHP: 100
+  attack: 92
+  defense: 85
+  spAttack: 92
+  spDefense: 85
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 00c4b3a03896a1d4c982293f2d438c0c, type: 2}
+  - moveBase: {fileID: 11400000, guid: 713d0ab00e4e8a645a5b2bdc9629d132, type: 2}
+  - moveBase: {fileID: 11400000, guid: e6efa0bf6a4729e4aa0a5eded9e65cf4, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3bf9bd7f1f049ab4c8475faecc8063db, type: 2}

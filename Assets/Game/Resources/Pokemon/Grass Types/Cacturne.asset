@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Cacturne
+  m_EditorClassIdentifier: 
+  name: Cacturne
+  description: "The Scarecrow Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: d3c54a0ad62b72148acb321ba84cc6cf, type: 3}
+  backSprite: {fileID: 21300000, guid: 24b5e68710e8c454c8c273ad8dc666ac, type: 3}
+  menuSprite: {fileID: 21300000, guid: b8e514caed034604f8ee2133f6ab3140, type: 3}
+  type1: 4
+  type2: 11
+  maxHP: 80
+  attack: 115
+  defense: 90
+  spAttack: 115
+  spDefense: 90
+  speed: 65
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 16c9630af9fad7749a0237f02f04c868, type: 2}
+  - moveBase: {fileID: 11400000, guid: 48fd37387c88e724ebc29174a38dfb30, type: 2}
+  - moveBase: {fileID: 11400000, guid: 6bcbb765fa30d7b4a9591eccdefae684, type: 2}
+  - moveBase: {fileID: 11400000, guid: e49434b7e3f18854ca293ccdc8edfb57, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Gourgeist
+  m_EditorClassIdentifier: 
+  name: Gourgeist
+  description: "The Pumpkin Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: dfb16c6de8c6c464bba33ae8b1f4e8c1, type: 3}
+  backSprite: {fileID: 21300000, guid: 0e13e23da99aa7d469eb0acd374ac3c1, type: 3}
+  menuSprite: {fileID: 21300000, guid: 1a323bc3bf6f3bb4e94971a88e9faa78, type: 3}
+  type1: 12
+  type2: 4
+  maxHP: 85
+  attack: 100
+  defense: 122
+  spAttack: 88
+  spDefense: 75
+  speed: 84
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e7c13c29fdfa4404c94ca4fb0370f72d, type: 2}
+  - moveBase: {fileID: 11400000, guid: 73064addc01cd2e4684ccba68ae34cba, type: 2}
+  - moveBase: {fileID: 11400000, guid: f74a2099393fbd3438ad8541d84ee0c5, type: 2}
+  - moveBase: {fileID: 11400000, guid: cb241929e0f4b434783c2231bbc2e2eb, type: 2}

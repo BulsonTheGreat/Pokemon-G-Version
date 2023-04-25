@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Bidoof
+  m_EditorClassIdentifier: 
+  name: Bidoof
+  description: "The Plump Mouse Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 925858f3264710942ba76e6ea1e203b3, type: 3}
+  backSprite: {fileID: 21300000, guid: 3ed60765870e73d449186a34ba339010, type: 3}
+  menuSprite: {fileID: 21300000, guid: a1c8e8040a4583f4f9f0bf2ad215ac6d, type: 3}
+  type1: 1
+  type2: 0
+  maxHP: 79
+  attack: 65
+  defense: 60
+  spAttack: 55
+  spDefense: 60
+  speed: 31
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 57b1eab83f7c3b748a72b20fa3b6acd6, type: 2}
+  - moveBase: {fileID: 11400000, guid: 825de095401018c4ba3ebb67c7730de0, type: 2}
+  - moveBase: {fileID: 11400000, guid: aad63647cad65524691055ef93525104, type: 2}
+  - moveBase: {fileID: 11400000, guid: a2adf86ad9ae5eb40848f06cf1077586, type: 2}

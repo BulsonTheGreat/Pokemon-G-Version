@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Gyarados
+  m_EditorClassIdentifier: 
+  name: Gyarados
+  description: "The Atrocious Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 5dfce3fec1d03ed4d9015e1c4c5f9dab, type: 3}
+  backSprite: {fileID: 21300000, guid: ecbb489c7cf59364a9fa828df7a26717, type: 3}
+  menuSprite: {fileID: 21300000, guid: 112a2f7f71db56043b4f804e38d438b2, type: 3}
+  type1: 3
+  type2: 11
+  maxHP: 95
+  attack: 125
+  defense: 79
+  spAttack: 60
+  spDefense: 100
+  speed: 81
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c74cc6754559eb94fbd4f56460cea7de, type: 2}
+  - moveBase: {fileID: 11400000, guid: 825de095401018c4ba3ebb67c7730de0, type: 2}
+  - moveBase: {fileID: 11400000, guid: 25ca3f3930ce1124c863e2575f19d83f, type: 2}
+  - moveBase: {fileID: 11400000, guid: 38cd1c29dbda58c418c1aa18e686239c, type: 2}

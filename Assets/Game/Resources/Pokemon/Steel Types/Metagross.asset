@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Metagross
+  m_EditorClassIdentifier: 
+  name: Metagross
+  description: "The Iron Leg Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 3d141e4cced616543a9013cb7c47f37a, type: 3}
+  backSprite: {fileID: 21300000, guid: 5e8f28bda1724f74eaeafbb781e38ec9, type: 3}
+  menuSprite: {fileID: 21300000, guid: c8cdd003ae40b5d438355921e6d7b2a6, type: 3}
+  type1: 16
+  type2: 10
+  maxHP: 80
+  attack: 135
+  defense: 130
+  spAttack: 95
+  spDefense: 90
+  speed: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 085525772252bff4a8112fa5ec6f7da5, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3b0230f5a3cf69d45b0b2fe9f2cc45a2, type: 2}
+  - moveBase: {fileID: 11400000, guid: 7d2e9914991bb6845922f255f6979671, type: 2}
+  - moveBase: {fileID: 11400000, guid: 25ca3f3930ce1124c863e2575f19d83f, type: 2}

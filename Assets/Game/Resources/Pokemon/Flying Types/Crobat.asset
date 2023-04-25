@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Crobat
+  m_EditorClassIdentifier: 
+  name: Crobat
+  description: "The Bat Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: f987d12d94756fe468e30d7d941655d5, type: 3}
+  backSprite: {fileID: 21300000, guid: 33bf3db1cfba1294b98ca5ba7bb23523, type: 3}
+  menuSprite: {fileID: 21300000, guid: 97d5a457162bc914881d5f3688f17736, type: 3}
+  type1: 9
+  type2: 7
+  maxHP: 85
+  attack: 100
+  defense: 80
+  spAttack: 70
+  spDefense: 80
+  speed: 130
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3a6940ee3a5649b44b200509c3975d21, type: 2}
+  - moveBase: {fileID: 11400000, guid: df3ff64f30b04904e87afeea15d0daeb, type: 2}
+  - moveBase: {fileID: 11400000, guid: a9b2995d0862e9940a12de83b78823f9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 02222604300b6474e94d164df48cdfd3, type: 2}

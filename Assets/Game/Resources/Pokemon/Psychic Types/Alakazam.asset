@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Alakazam
+  m_EditorClassIdentifier: 
+  name: Alakazam
+  description: "The Psi Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: afd316c4f4fe08f4f8b598a12cd03a70, type: 3}
+  backSprite: {fileID: 21300000, guid: d73a954487e1e324db8660202dec2f8e, type: 3}
+  menuSprite: {fileID: 21300000, guid: b2a0e36031345c44d8aabfd850aec2b2, type: 3}
+  type1: 10
+  type2: 0
+  maxHP: 55
+  attack: 50
+  defense: 45
+  spAttack: 135
+  spDefense: 95
+  speed: 120
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7b50c57a674079649bd3e9433b614844, type: 2}
+  - moveBase: {fileID: 11400000, guid: f6f54f4fe137a3543bf2a111d63c6671, type: 2}
+  - moveBase: {fileID: 11400000, guid: 49a6a039021a7ca40ad63b078dff065b, type: 2}
+  - moveBase: {fileID: 11400000, guid: 28dd1a855ddd4f943be0a30cc442ddea, type: 2}

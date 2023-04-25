@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Ekans
+  m_EditorClassIdentifier: 
+  name: Ekans
+  description: The Snake Pokemon
+  frontSprite: {fileID: 21300000, guid: 8e40428751dc6bd45bc0f9f6ab0bc000, type: 3}
+  backSprite: {fileID: 21300000, guid: 3cc00a6ddfc541c41bcc71423caf6417, type: 3}
+  menuSprite: {fileID: 21300000, guid: 1303eb0377390fb4e8cc0693f6473dee, type: 3}
+  type1: 7
+  type2: 0
+  maxHP: 50
+  attack: 75
+  defense: 59
+  spAttack: 55
+  spDefense: 69
+  speed: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: d7bff849788a0c748a9879d07ab2e905, type: 2}
+  - moveBase: {fileID: 11400000, guid: aad63647cad65524691055ef93525104, type: 2}
+  - moveBase: {fileID: 11400000, guid: 881a4489f2abcfc4db8c4c709ea549ba, type: 2}
+  - moveBase: {fileID: 11400000, guid: 9632b32f101a23b4d8d2d10a1b2dba05, type: 2}

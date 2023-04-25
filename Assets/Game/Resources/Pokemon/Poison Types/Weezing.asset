@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Weezing
+  m_EditorClassIdentifier: 
+  name: Weezing
+  description: "The Poison Gas Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 520dda55e6031394a91263b038bad420, type: 3}
+  backSprite: {fileID: 21300000, guid: cb799108209ccf14d9953c65746c471d, type: 3}
+  menuSprite: {fileID: 21300000, guid: 0e05cdb522657184fb9d466ba3b0f3c6, type: 3}
+  type1: 7
+  type2: 0
+  maxHP: 75
+  attack: 90
+  defense: 120
+  spAttack: 95
+  spDefense: 100
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b65ef05fcb8333d4db9debd7d6f20a15, type: 2}
+  - moveBase: {fileID: 11400000, guid: f6433fcb52b4cfb4bb9fd626f064d425, type: 2}
+  - moveBase: {fileID: 11400000, guid: 0dfa02f224fefa7418e1686b50d7b652, type: 2}
+  - moveBase: {fileID: 11400000, guid: cb241929e0f4b434783c2231bbc2e2eb, type: 2}

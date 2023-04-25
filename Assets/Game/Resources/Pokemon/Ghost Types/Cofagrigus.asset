@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Cofagrigus
+  m_EditorClassIdentifier: 
+  name: Cofagrigus
+  description: "The Coffin Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 231f59bc8845ef24ca1a8731682c626c, type: 3}
+  backSprite: {fileID: 21300000, guid: 0748333a9aaaf62469a008eab09d548c, type: 3}
+  menuSprite: {fileID: 21300000, guid: 53a7604edc11e4a449d516fd9b4c8050, type: 3}
+  type1: 12
+  type2: 14
+  maxHP: 78
+  attack: 50
+  defense: 145
+  spAttack: 95
+  spDefense: 105
+  speed: 30
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f6f54f4fe137a3543bf2a111d63c6671, type: 2}
+  - moveBase: {fileID: 11400000, guid: 58c653b9b4ab6b842a445d0d64596cf9, type: 2}
+  - moveBase: {fileID: 11400000, guid: f74a2099393fbd3438ad8541d84ee0c5, type: 2}
+  - moveBase: {fileID: 11400000, guid: 49a6a039021a7ca40ad63b078dff065b, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Growlithe
+  m_EditorClassIdentifier: 
+  name: Growlithe
+  description: "The Puppy Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: f2e96cfdabf6dbb4298ad611fb86dbf6, type: 3}
+  backSprite: {fileID: 21300000, guid: 731f0fae5627e3649afebcde52cda629, type: 3}
+  menuSprite: {fileID: 21300000, guid: d75c5d298038f7d4f9b940c1d4ebd999, type: 3}
+  type1: 2
+  type2: 0
+  maxHP: 55
+  attack: 70
+  defense: 45
+  spAttack: 70
+  spDefense: 50
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 05f6973b8381e174d944d4aab2bcb5e2, type: 2}
+  - moveBase: {fileID: 11400000, guid: 351908b63e18f064f91d91022ab84730, type: 2}
+  - moveBase: {fileID: 11400000, guid: ce78401b9626cdd46b073f5cda020dcc, type: 2}
+  - moveBase: {fileID: 11400000, guid: aad63647cad65524691055ef93525104, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Lairon
+  m_EditorClassIdentifier: 
+  name: Lairon
+  description: "The Iron Armor Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 0b75b23de6de3fe4fa02b80f85d62db0, type: 3}
+  backSprite: {fileID: 21300000, guid: 023fb90f274c7dd4681d481c9469703d, type: 3}
+  menuSprite: {fileID: 21300000, guid: 96c310b0500eb3e4a850f01918d9cb75, type: 3}
+  type1: 16
+  type2: 14
+  maxHP: 60
+  attack: 90
+  defense: 140
+  spAttack: 50
+  spDefense: 50
+  speed: 40
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: a612c82378138fc498bcb2c3a31ef771, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3bf9bd7f1f049ab4c8475faecc8063db, type: 2}
+  - moveBase: {fileID: 11400000, guid: cf8c4598d98c67147b27cc0785a3f2d9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 57b1eab83f7c3b748a72b20fa3b6acd6, type: 2}

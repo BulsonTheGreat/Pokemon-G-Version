@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Test Dummy
+  m_EditorClassIdentifier: 
+  name: Wobbuffet
+  description: Just for testing some things.
+  frontSprite: {fileID: 21300000, guid: caa422b43cd0aae41bc772778aafce24, type: 3}
+  backSprite: {fileID: 21300000, guid: 05f243b73fa203346adee6e73cb94bec, type: 3}
+  menuSprite: {fileID: 21300000, guid: 30b780e26f0588d4681e9353e6cef80d, type: 3}
+  type1: 0
+  type2: 0
+  maxHP: 100
+  attack: 100
+  defense: 100
+  spAttack: 100
+  spDefense: 100
+  speed: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 46d5cfd30fc8bc84ba7a9342ac230e40, type: 2}

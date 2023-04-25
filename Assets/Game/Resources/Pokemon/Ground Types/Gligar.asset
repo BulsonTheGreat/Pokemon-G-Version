@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Gligar
+  m_EditorClassIdentifier: 
+  name: Gligar
+  description: "The FlyScorpion Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 4e1fe318e844f2541986d312dc2077d9, type: 3}
+  backSprite: {fileID: 21300000, guid: 2c8b3cda8ad61fe49a132e1ef5f470df, type: 3}
+  menuSprite: {fileID: 21300000, guid: 4d5e4a0ee1c73be418b01a47811b524a, type: 3}
+  type1: 8
+  type2: 9
+  maxHP: 65
+  attack: 75
+  defense: 105
+  spAttack: 35
+  spDefense: 65
+  speed: 85
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: cf8c4598d98c67147b27cc0785a3f2d9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3a6940ee3a5649b44b200509c3975d21, type: 2}
+  - moveBase: {fileID: 11400000, guid: d29b509490ae71b41afb2cd2037453e6, type: 2}
+  - moveBase: {fileID: 11400000, guid: a9b2995d0862e9940a12de83b78823f9, type: 2}

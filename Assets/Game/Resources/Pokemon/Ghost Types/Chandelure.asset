@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Chandelure
+  m_EditorClassIdentifier: 
+  name: Chandelure
+  description: "The Luring Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 3772f0ceefc3ba743ac1e8c63bc149b0, type: 3}
+  backSprite: {fileID: 21300000, guid: 71cb522aa32364b408de26a92885dc6b, type: 3}
+  menuSprite: {fileID: 21300000, guid: 95873fcede897c348a93a3adb95ded21, type: 3}
+  type1: 12
+  type2: 2
+  maxHP: 80
+  attack: 55
+  defense: 90
+  spAttack: 145
+  spDefense: 90
+  speed: 80
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: cb241929e0f4b434783c2231bbc2e2eb, type: 2}
+  - moveBase: {fileID: 11400000, guid: f6f54f4fe137a3543bf2a111d63c6671, type: 2}
+  - moveBase: {fileID: 11400000, guid: 49a6a039021a7ca40ad63b078dff065b, type: 2}
+  - moveBase: {fileID: 11400000, guid: 7b50c57a674079649bd3e9433b614844, type: 2}

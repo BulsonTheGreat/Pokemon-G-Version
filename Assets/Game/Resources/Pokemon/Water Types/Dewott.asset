@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Dewott
+  m_EditorClassIdentifier: 
+  name: Dewott
+  description: "The Discipline Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: cf82fcee8803c0a40b801a73a949f875, type: 3}
+  backSprite: {fileID: 21300000, guid: a2c7e3da4276b26408213b837cc951aa, type: 3}
+  menuSprite: {fileID: 21300000, guid: 11a692d66814d154a838afdb6a5693cc, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 75
+  attack: 75
+  defense: 60
+  spAttack: 83
+  spDefense: 60
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c22a991828b81184c8c523d70145dd90, type: 2}
+  - moveBase: {fileID: 11400000, guid: 36ab6e9f785ef804797f1d5a5b1d6806, type: 2}
+  - moveBase: {fileID: 11400000, guid: 2a388ca3305a94c4497bee97f63f0656, type: 2}
+  - moveBase: {fileID: 11400000, guid: 68828dbe138282a4f9f00faad95f0e6f, type: 2}

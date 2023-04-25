@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Lopunny
+  m_EditorClassIdentifier: 
+  name: Lopunny
+  description: "The Rabbit Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: d954e7af5a607b946bb40f14b234e186, type: 3}
+  backSprite: {fileID: 21300000, guid: 8b4401c5b7bfb4244ad88be6b9ca72fc, type: 3}
+  menuSprite: {fileID: 21300000, guid: 53f922344bc4b5e4b8c8911fcb68bf67, type: 3}
+  type1: 1
+  type2: 0
+  maxHP: 65
+  attack: 76
+  defense: 84
+  spAttack: 54
+  spDefense: 96
+  speed: 105
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2766e4b3bc8915a4588febf63ee58d65, type: 2}
+  - moveBase: {fileID: 11400000, guid: b00fbe8ddaa0e0d4db8410aa17a76e98, type: 2}
+  - moveBase: {fileID: 11400000, guid: 7e02ed7a290b17a44b24ba3af526a325, type: 2}
+  - moveBase: {fileID: 11400000, guid: cc13d67764872824db3981ebbe59b0e4, type: 2}

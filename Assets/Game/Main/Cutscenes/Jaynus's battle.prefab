@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3217304080768823851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3217304080768823845}
+  - component: {fileID: 3217304080768823850}
+  - component: {fileID: 3217304080768823844}
+  m_Layer: 12
+  m_Name: Jaynus's battle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3217304080768823845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3217304080768823851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.42, y: 62, z: -3.8244789}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3217304080768823850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3217304080768823851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f861b322acc2b4f4c85977fa1d72b9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - rid: 6095826112932478995
+  - rid: 6095826112932478996
+  - rid: 6095826112932478997
+  - rid: 6095826112932478998
+  - rid: 6095826112932478999
+  references:
+    version: 2
+    RefIds:
+    - rid: 6095826112932478995
+      type: {class: DialogAction, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: DialogAction
+        dialog:
+          lines:
+          - I've been expecting you child.
+    - rid: 6095826112932478996
+      type: {class: MoveActors, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: MoveActors
+        actor: {fileID: 0}
+        movePatterns:
+        - {x: 0, y: -1}
+    - rid: 6095826112932478997
+      type: {class: DialogAction, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: DialogAction
+        dialog:
+          lines:
+          - Throughout your entire journey I helped you on many occasions.
+          - It's because of me that you became the person you are right now.
+          - And this is how you repay me? By backstabbing me and taking my title.
+          - It doesn't matter now, does it?
+    - rid: 6095826112932478998
+      type: {class: ChoiceDialog, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: ChoiceDialog
+        mainDialog:
+          lines:
+          - Tell me, do you acknowledge any gods?
+        choice1: I do you old fart.
+        choice2: Hell no, that's just a myth.
+        dialog1:
+          lines:
+          - Then start praying now.
+        dialog2:
+          lines:
+          - Is that so? Well I guess you'll find it out by yourself soon.
+    - rid: 6095826112932478999
+      type: {class: BattleTrigger, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: BattleTrigger
+        trainer: {fileID: 0}
+        dialog:
+          lines:
+          - Enough with the smalltalk.
+          - This time I planned something special once I'm done with you.
+--- !u!61 &3217304080768823844
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3217304080768823851}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.20990372, y: -0.01166153}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4198074, y: 0.9300308}
+  m_EdgeRadius: 0

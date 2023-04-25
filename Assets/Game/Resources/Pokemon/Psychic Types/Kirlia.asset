@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Kirlia
+  m_EditorClassIdentifier: 
+  name: Kirlia
+  description: "The Emotion Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 3cca42efed1b96c45982a09467efde66, type: 3}
+  backSprite: {fileID: 21300000, guid: fdbf6d171aaa62f4caef32ae97d56253, type: 3}
+  menuSprite: {fileID: 21300000, guid: 418a075aad7c9894799bced05bed543a, type: 3}
+  type1: 10
+  type2: 18
+  maxHP: 58
+  attack: 35
+  defense: 55
+  spAttack: 75
+  spDefense: 65
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 591e571c96e5f1246ad70fe33e9d00bd, type: 2}
+  - moveBase: {fileID: 11400000, guid: c48ae868229415f4ea435d75704bb533, type: 2}
+  - moveBase: {fileID: 11400000, guid: 027c6c0cf1ebbdb4394aa17be11630c8, type: 2}
+  - moveBase: {fileID: 11400000, guid: c41ac4ac74776aa40b6abc6e3af9d5cd, type: 2}

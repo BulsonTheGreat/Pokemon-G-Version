@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Serperior
+  m_EditorClassIdentifier: 
+  name: Serperior
+  description: "The Regal Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 1ef33553d583ffb4c9cae5793f427db5, type: 3}
+  backSprite: {fileID: 21300000, guid: a3595b6e0e4f22c40baf786178347cc4, type: 3}
+  menuSprite: {fileID: 21300000, guid: 3217d7545dccd414396cc4f80148fffa, type: 3}
+  type1: 4
+  type2: 0
+  maxHP: 75
+  attack: 80
+  defense: 95
+  spAttack: 75
+  spDefense: 95
+  speed: 115
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 80db8d9d82166d741a20ec21d60bd652, type: 2}
+  - moveBase: {fileID: 11400000, guid: ba4e856174bd5aa40884a83d16b80f5b, type: 2}
+  - moveBase: {fileID: 11400000, guid: 9632b32f101a23b4d8d2d10a1b2dba05, type: 2}
+  - moveBase: {fileID: 11400000, guid: 2eb131fc93c5a504296131e6959ca4be, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Krookodile
+  m_EditorClassIdentifier: 
+  name: Krookodile
+  description: "The Intimidation Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: c6baadbf35890bd45aca6777950c4c99, type: 3}
+  backSprite: {fileID: 21300000, guid: 272f5d079ca71854a9ef883b08f56f91, type: 3}
+  menuSprite: {fileID: 21300000, guid: c94615f90f0069b40baaeac6dfa52769, type: 3}
+  type1: 8
+  type2: 11
+  maxHP: 95
+  attack: 117
+  defense: 80
+  spAttack: 65
+  spDefense: 70
+  speed: 92
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 25ca3f3930ce1124c863e2575f19d83f, type: 2}
+  - moveBase: {fileID: 11400000, guid: 825de095401018c4ba3ebb67c7730de0, type: 2}
+  - moveBase: {fileID: 11400000, guid: 2eb131fc93c5a504296131e6959ca4be, type: 2}
+  - moveBase: {fileID: 11400000, guid: b65ef05fcb8333d4db9debd7d6f20a15, type: 2}

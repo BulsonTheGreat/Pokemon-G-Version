@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Victreebel
+  m_EditorClassIdentifier: 
+  name: Victreebel
+  description: "The Flycatcher Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 6b385d18b10e4f7499a68f040c2ce669, type: 3}
+  backSprite: {fileID: 21300000, guid: 930667106a579954a8deb3a2451831e8, type: 3}
+  menuSprite: {fileID: 21300000, guid: 82abdde6834ef6e47827eb4a87766fcc, type: 3}
+  type1: 4
+  type2: 7
+  maxHP: 90
+  attack: 105
+  defense: 75
+  spAttack: 100
+  spDefense: 80
+  speed: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7e431b163f765214b8b9edbb2d5f7f61, type: 2}
+  - moveBase: {fileID: 11400000, guid: ff9e48ef8a446084f860c43b5464f573, type: 2}
+  - moveBase: {fileID: 11400000, guid: 02222604300b6474e94d164df48cdfd3, type: 2}
+  - moveBase: {fileID: 11400000, guid: dedfe55dd756a504db9102e021b60c12, type: 2}

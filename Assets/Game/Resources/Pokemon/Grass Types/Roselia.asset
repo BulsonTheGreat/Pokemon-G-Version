@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Roselia
+  m_EditorClassIdentifier: 
+  name: Roselia
+  description: "The Thorn Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: f5413ba8adb96784b854fe1ac2a0bd52, type: 3}
+  backSprite: {fileID: 21300000, guid: 01521256e1195f1459ccfb3c1786014a, type: 3}
+  menuSprite: {fileID: 21300000, guid: cfa65b1e1c2282c4d9cb2a4d63c074f4, type: 3}
+  type1: 4
+  type2: 7
+  maxHP: 50
+  attack: 60
+  defense: 45
+  spAttack: 100
+  spDefense: 80
+  speed: 65
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 027c6c0cf1ebbdb4394aa17be11630c8, type: 2}
+  - moveBase: {fileID: 11400000, guid: f6433fcb52b4cfb4bb9fd626f064d425, type: 2}
+  - moveBase: {fileID: 11400000, guid: 6113c5090e10d984b9b4647c376d4f86, type: 2}
+  - moveBase: {fileID: 11400000, guid: c211bf114a904c444b906c9293551a36, type: 2}

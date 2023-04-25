@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Zebstrika
+  m_EditorClassIdentifier: 
+  name: Zebstrika
+  description: "The Thunderbolt Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 7b73fff3c1268034ea49cc2a467c5500, type: 3}
+  backSprite: {fileID: 21300000, guid: 5f6c8e7e5e4cb7d4cad77b81398c51a1, type: 3}
+  menuSprite: {fileID: 21300000, guid: 8b20165d977796c4aaa06b3ece0bb826, type: 3}
+  type1: 5
+  type2: 0
+  maxHP: 75
+  attack: 100
+  defense: 63
+  spAttack: 80
+  spDefense: 63
+  speed: 116
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1ab9302dfde67674d932159010b429a2, type: 2}
+  - moveBase: {fileID: 11400000, guid: 7a8a311bbcf28cd4ca7c6e129aa11061, type: 2}
+  - moveBase: {fileID: 11400000, guid: 755ee5136aba1c34cafbddd29a0a14f7, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3a1feb35ec51fe34c8512371cdbfb0d5, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Mr.Mime
+  m_EditorClassIdentifier: 
+  name: Mr.Mime
+  description: "The Dancing Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 5dc541c80401d7e42bca5ec9bf764a3b, type: 3}
+  backSprite: {fileID: 21300000, guid: 5ac1caa19fca4174d842ed0f9f8834b9, type: 3}
+  menuSprite: {fileID: 21300000, guid: 81684fcbb3b432f418ad4f1c3f81aa43, type: 3}
+  type1: 10
+  type2: 18
+  maxHP: 40
+  attack: 45
+  defense: 65
+  spAttack: 100
+  spDefense: 120
+  speed: 90
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7b50c57a674079649bd3e9433b614844, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4de7c52e28f0efa40929f73dd7ffb253, type: 2}
+  - moveBase: {fileID: 11400000, guid: 49a6a039021a7ca40ad63b078dff065b, type: 2}
+  - moveBase: {fileID: 11400000, guid: 7a8a311bbcf28cd4ca7c6e129aa11061, type: 2}

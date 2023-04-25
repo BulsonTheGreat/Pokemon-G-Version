@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Rayquaza
+  m_EditorClassIdentifier: 
+  name: Rayquaza
+  description: "The Sky High Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: ce455a12b1ff72d49baf218a00708a93, type: 3}
+  backSprite: {fileID: 21300000, guid: eea9b8cde488dd24bb05cc2f5e7ecad0, type: 3}
+  menuSprite: {fileID: 21300000, guid: 58cd5a8d776ec1f4c87a59bbb46e3f65, type: 3}
+  type1: 17
+  type2: 9
+  maxHP: 105
+  attack: 150
+  defense: 90
+  spAttack: 150
+  spDefense: 90
+  speed: 95
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: e7886208ba73e4f43be1d0189abd3ee7, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3935c85d2240291488a087b126689ad8, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4b30d9180ce090340bdf9a1ca83495f9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 8cae62800b161f14ea64253aca1a2e73, type: 2}

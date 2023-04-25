@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Trevenant
+  m_EditorClassIdentifier: 
+  name: Trevenant
+  description: "The Elder Tree Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 6041d67a05710a74ead13657d4d6f030, type: 3}
+  backSprite: {fileID: 21300000, guid: 5d5ac72c9027d3f4c8dd7483be922893, type: 3}
+  menuSprite: {fileID: 21300000, guid: 3ea519bb67add004ea48b51d396cf27a, type: 3}
+  type1: 12
+  type2: 4
+  maxHP: 90
+  attack: 115
+  defense: 86
+  spAttack: 62
+  spDefense: 92
+  speed: 56
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 00c4b3a03896a1d4c982293f2d438c0c, type: 2}
+  - moveBase: {fileID: 11400000, guid: 73064addc01cd2e4684ccba68ae34cba, type: 2}
+  - moveBase: {fileID: 11400000, guid: 7e02ed7a290b17a44b24ba3af526a325, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3bf9bd7f1f049ab4c8475faecc8063db, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Glaceon
+  m_EditorClassIdentifier: 
+  name: Glaceon
+  description: "The Fresh Snow Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: d1f66fb2aa0e11d4aafd67bbc9e11256, type: 3}
+  backSprite: {fileID: 21300000, guid: fa71418520d93474286bd2be000ff219, type: 3}
+  menuSprite: {fileID: 21300000, guid: 15ca7fab81dc6d04cbd722355808a969, type: 3}
+  type1: 15
+  type2: 0
+  maxHP: 65
+  attack: 60
+  defense: 110
+  spAttack: 130
+  spDefense: 95
+  speed: 65
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 4e92b90d1b3de354395a9acc61c73231, type: 2}
+  - moveBase: {fileID: 11400000, guid: f6f54f4fe137a3543bf2a111d63c6671, type: 2}
+  - moveBase: {fileID: 11400000, guid: 755ee5136aba1c34cafbddd29a0a14f7, type: 2}
+  - moveBase: {fileID: 11400000, guid: 8599335e45d2d4b45b102d5f45de6cc9, type: 2}

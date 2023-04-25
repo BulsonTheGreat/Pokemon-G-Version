@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f16830d093210f49a058d9f6e84ab3b, type: 3}
+  m_Name: Phantom Force
+  m_EditorClassIdentifier: 
+  name: Phantom Force
+  description: 'The user vanishes somewhere, then strikes the target. '
+  type: 12
+  power: 90
+  accuracy: 100
+  moveCategorie: 0
+  effects:
+    boosts: []
+    status: 0
+    volatileStatus: 0
+  secondaryEffects: []
+  target: 0
+  alwaysHits: 1
+  priority: 0
+  restoresHP: 0
+  hasRecoil: 0
+  extraCritChance: 0

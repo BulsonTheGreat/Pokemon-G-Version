@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Vulpix
+  m_EditorClassIdentifier: 
+  name: Vulpix
+  description: "The Fox Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 9d5495e441db4ba45a52bf6a55a5fd55, type: 3}
+  backSprite: {fileID: 21300000, guid: 9d5495e441db4ba45a52bf6a55a5fd55, type: 3}
+  menuSprite: {fileID: 21300000, guid: ae7aecc087967d34393404e27e467945, type: 3}
+  type1: 2
+  type2: 0
+  maxHP: 48
+  attack: 51
+  defense: 51
+  spAttack: 60
+  spDefense: 75
+  speed: 75
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: ace8b7a17fa947f429d312fc0cf0ee7c, type: 2}
+  - moveBase: {fileID: 11400000, guid: 8774a4c87fbb7b544b75382f538d217c, type: 2}
+  - moveBase: {fileID: 11400000, guid: de3d1f3f4b68cfc41a07fbfd6a951106, type: 2}
+  - moveBase: {fileID: 11400000, guid: aad63647cad65524691055ef93525104, type: 2}

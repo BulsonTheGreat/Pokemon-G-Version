@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Houndoom
+  m_EditorClassIdentifier: 
+  name: Houndoom
+  description: "The Dark Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 591abde6ef158f4489c8786864f1c0ff, type: 3}
+  backSprite: {fileID: 21300000, guid: 8cec93bd8ba98874fa4b30d76709d0df, type: 3}
+  menuSprite: {fileID: 21300000, guid: 5bfaea0447117494cb2629c64d86588f, type: 3}
+  type1: 11
+  type2: 2
+  maxHP: 75
+  attack: 90
+  defense: 60
+  spAttack: 110
+  spDefense: 80
+  speed: 105
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: de3d1f3f4b68cfc41a07fbfd6a951106, type: 2}
+  - moveBase: {fileID: 11400000, guid: f10eed9c02ba4cd44be048b0ad5373b8, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4f1db45b9518517469732d6a735bf3d7, type: 2}
+  - moveBase: {fileID: 11400000, guid: ef1b9a1f26ff4554e9623e50c244ff49, type: 2}

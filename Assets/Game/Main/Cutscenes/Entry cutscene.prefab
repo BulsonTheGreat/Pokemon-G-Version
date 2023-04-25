@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7417350050883488985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7417350050883488983}
+  - component: {fileID: 7417350050883488984}
+  - component: {fileID: 7417350050883488982}
+  m_Layer: 12
+  m_Name: Entry cutscene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7417350050883488983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7417350050883488985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8526782, y: 0.5265727, z: -3.8244789}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7417350050883488984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7417350050883488985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f861b322acc2b4f4c85977fa1d72b9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - rid: 6095826112932478983
+  - rid: 6095826112932478987
+  - rid: 6095826112932478988
+  - rid: 6095826112932478989
+  - rid: 6095826112932478986
+  references:
+    version: 2
+    RefIds:
+    - rid: 6095826112932478983
+      type: {class: MoveActors, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: MoveActors
+        actor: {fileID: 0}
+        movePatterns:
+        - {x: 0, y: -3}
+        - {x: -3, y: 0}
+    - rid: 6095826112932478986
+      type: {class: MoveActors, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: MoveActors
+        actor: {fileID: 0}
+        movePatterns:
+        - {x: 3, y: 0}
+        - {x: 0, y: 1}
+        - {x: 1, y: 0}
+    - rid: 6095826112932478987
+      type: {class: DialogAction, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: DialogAction
+        dialog:
+          lines:
+          - Hello sleeping beauty, you finally woke up from your coma.
+          - Normally this is the part where I ask you about your name, gender etc.
+          - But we don't have much so I need to keep it as brief as possible.
+          - Therefore your name is Doofus and you're a boy.
+          - And if you don't like it you can go cancel the game devs on twitter.
+          - Anyway, welcome to the world of pokemon, where you roam around the map
+            catching some little sh*tters.
+          - Beating other people with them until you eventually beat the champion
+            and become the head of the government.
+          - However you've already done all of that, it's just that our former leader,
+            the "great" Jaynus MyGuy couldn't take his defeat.
+          - Therefore he planted a bomb on your private jet with the help of your
+            mother.
+          - You're lucky I found you alive and brought you here.
+          - Thankfully Jaynus wasn't able to recreate his regime yet.
+          - So now all of his minions are stationed in that big a*s tower in the
+            northern part of the city.
+          - All you have to do is go there, beat all of them and remind them why
+            you're the boss around here.
+          - And if you need to heal your pokemon then try talking to a nurse/doctor.
+          - Some will try to challenge you for a battle, but others will heal your
+            units for free.
+          - Or you can always go back and talk to my sexy assistant over there.
+          - I should propably mention that your mother is also there.
+          - Apparently she is salty that she got pregneant with you and couln't start
+            her acting career.
+          - That's why she helped Jaynus sabotage you and became his new trophy wife.
+          - Alright then, since you've already cought all the usefull pokemon in
+            our region you can grab them from that PC over there.
+          - However the latest windows update crashed it so now it only gives random
+            pokemon.
+          - But you can always reroll them if you want, you've got like 150 to choose
+            from.
+          - As far as gameplay goes just remember to choose the right move based
+            on your opponent's type.
+          - And remember that when a pokemon uses a move corresponding to it's type
+            then that move gains more power.
+    - rid: 6095826112932478988
+      type: {class: ChoiceDialog, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: ChoiceDialog
+        mainDialog:
+          lines:
+          - Is that clear?
+        choice1: Yes sir
+        choice2: No, not really
+        dialog1:
+          lines:
+          - Good, because I wasn't going to explain more details either way.
+          - You're a world champion afterall.
+        dialog2:
+          lines:
+          - Then google it on your phone or something, I'm not gonna bother explaining
+            everything from scratch
+          - You're a world champion afterall.
+    - rid: 6095826112932478989
+      type: {class: DialogAction, ns: , asm: Assembly-CSharp}
+      data:
+        CutsceneName: DialogAction
+        dialog:
+          lines:
+          - Just so you know the devs just dropped a new balance patch.
+          - The type chart got slightly altered, some move got changed and some pokemon
+            had their type changed aswell.
+          - You can find more about it in that lovely note in the gamefiles.
+          - Alright, I think that covers everything you need to know.
+          - Now excuse me, I need to go smoke my new joint.
+--- !u!61 &7417350050883488982
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7417350050883488985}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.3341249, y: -1.064795}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.120424, y: 1.0331756}
+  m_EdgeRadius: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Blissey
+  m_EditorClassIdentifier: 
+  name: Blissey
+  description: "The Happiness Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 0f5123fa1418c5846a12fcee2c6b49b0, type: 3}
+  backSprite: {fileID: 21300000, guid: 81f2ef387c8383d47ace4dac530fb62a, type: 3}
+  menuSprite: {fileID: 21300000, guid: 19168c18d0ce9df4b914750c5ec0e18b, type: 3}
+  type1: 1
+  type2: 0
+  maxHP: 255
+  attack: 10
+  defense: 10
+  spAttack: 75
+  spDefense: 135
+  speed: 55
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: bb0af76c291bdc342bb289a100f09bf4, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4b30d9180ce090340bdf9a1ca83495f9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 6113c5090e10d984b9b4647c376d4f86, type: 2}
+  - moveBase: {fileID: 11400000, guid: 1e19a05eb47654544b8d89743aabd968, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Weavile
+  m_EditorClassIdentifier: 
+  name: Weavile
+  description: "The Sharp Claw Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 0a20011bf5318b94daabc1a7431abeb7, type: 3}
+  backSprite: {fileID: 21300000, guid: 26030ab6b366917499353a9d07379f3c, type: 3}
+  menuSprite: {fileID: 21300000, guid: 27783517b4be73240816c8253c2deacb, type: 3}
+  type1: 11
+  type2: 15
+  maxHP: 70
+  attack: 120
+  defense: 65
+  spAttack: 45
+  spDefense: 85
+  speed: 125
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2a388ca3305a94c4497bee97f63f0656, type: 2}
+  - moveBase: {fileID: 11400000, guid: df182d4ea4cfd8442956bbf8f269fcea, type: 2}
+  - moveBase: {fileID: 11400000, guid: ca877bb411ce6bd4e90543e9ffecd0c2, type: 2}
+  - moveBase: {fileID: 11400000, guid: 68828dbe138282a4f9f00faad95f0e6f, type: 2}

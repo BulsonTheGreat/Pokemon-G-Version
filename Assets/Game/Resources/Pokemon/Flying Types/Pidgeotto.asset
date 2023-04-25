@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Pidgeotto
+  m_EditorClassIdentifier: 
+  name: Pidgeotto
+  description: "The Bird Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: a1405dbfb529adb418c126bbe7d0d626, type: 3}
+  backSprite: {fileID: 21300000, guid: d4857a876a268a949bf16e02603a7eaf, type: 3}
+  menuSprite: {fileID: 21300000, guid: 3793f5a49860ea94b9c83f3ff2943c2d, type: 3}
+  type1: 9
+  type2: 1
+  maxHP: 63
+  attack: 60
+  defense: 55
+  spAttack: 50
+  spDefense: 50
+  speed: 71
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 290af949a3ea84d4f9535d729d9ea44d, type: 2}
+  - moveBase: {fileID: 11400000, guid: cc13d67764872824db3981ebbe59b0e4, type: 2}
+  - moveBase: {fileID: 11400000, guid: 8b22b5e12dc57804d909ede2123b8b52, type: 2}
+  - moveBase: {fileID: 11400000, guid: 2766e4b3bc8915a4588febf63ee58d65, type: 2}

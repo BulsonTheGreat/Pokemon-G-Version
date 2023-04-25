@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Golurk
+  m_EditorClassIdentifier: 
+  name: Golurk
+  description: "The Automaton Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 83cadf09d19285649b0ecb743a7457c6, type: 3}
+  backSprite: {fileID: 21300000, guid: a2c2c2b1904c0914f9e45baae1a7ba03, type: 3}
+  menuSprite: {fileID: 21300000, guid: c970b365037bead4e9b41d16c47026d2, type: 3}
+  type1: 8
+  type2: 12
+  maxHP: 89
+  attack: 124
+  defense: 80
+  spAttack: 55
+  spDefense: 80
+  speed: 55
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 25ca3f3930ce1124c863e2575f19d83f, type: 2}
+  - moveBase: {fileID: 11400000, guid: 73064addc01cd2e4684ccba68ae34cba, type: 2}
+  - moveBase: {fileID: 11400000, guid: 7d2e9914991bb6845922f255f6979671, type: 2}
+  - moveBase: {fileID: 11400000, guid: ef240d45b410df44cae38dc1ed82b997, type: 2}

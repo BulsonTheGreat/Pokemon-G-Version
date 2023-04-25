@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Eternatus
+  m_EditorClassIdentifier: 
+  name: Eternatus
+  description: "The Gigantic Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 117915f876a614e4d9039dbeb5b1f07d, type: 3}
+  backSprite: {fileID: 21300000, guid: ae9e227960fd98e4798f6f6f6919863a, type: 3}
+  menuSprite: {fileID: 21300000, guid: 1b3a6ea442640a9489cbb5d94885d8a7, type: 3}
+  type1: 7
+  type2: 17
+  maxHP: 255
+  attack: 115
+  defense: 250
+  spAttack: 125
+  spDefense: 250
+  speed: 130
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 22c3afa15cd40e443a647f4eb8adb102, type: 2}
+  - moveBase: {fileID: 11400000, guid: b65ef05fcb8333d4db9debd7d6f20a15, type: 2}
+  - moveBase: {fileID: 11400000, guid: f10eed9c02ba4cd44be048b0ad5373b8, type: 2}
+  - moveBase: {fileID: 11400000, guid: ef1b9a1f26ff4554e9623e50c244ff49, type: 2}

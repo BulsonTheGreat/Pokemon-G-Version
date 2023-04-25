@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Fearow
+  m_EditorClassIdentifier: 
+  name: Fearow
+  description: "The Beak Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 5f3203fe7232e7d45acc2116a3132c55, type: 3}
+  backSprite: {fileID: 21300000, guid: 1b60c630f78da0748a101bb479b80341, type: 3}
+  menuSprite: {fileID: 21300000, guid: cd0cbcb969315ab42ab7b6a3df27c045, type: 3}
+  type1: 9
+  type2: 1
+  maxHP: 65
+  attack: 90
+  defense: 65
+  spAttack: 61
+  spDefense: 61
+  speed: 100
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b1dfdce395ad0184f84134dd6c829af7, type: 2}
+  - moveBase: {fileID: 11400000, guid: 8c1419845d630364cacdae63e0390d3d, type: 2}
+  - moveBase: {fileID: 11400000, guid: a9b2995d0862e9940a12de83b78823f9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4aafecf0524f94540a2db5ee6de52109, type: 2}

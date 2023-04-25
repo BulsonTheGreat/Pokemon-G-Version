@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Boldore
+  m_EditorClassIdentifier: 
+  name: Boldore
+  description: "The Ore Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 232e19ffa66c2684985ab6e532cbd4f8, type: 3}
+  backSprite: {fileID: 21300000, guid: 7bca00c8e693c16448920a78019fcf3e, type: 3}
+  menuSprite: {fileID: 21300000, guid: 7e769348326c84743aa040b61062d790, type: 3}
+  type1: 14
+  type2: 0
+  maxHP: 70
+  attack: 105
+  defense: 105
+  spAttack: 50
+  spDefense: 70
+  speed: 20
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3bf9bd7f1f049ab4c8475faecc8063db, type: 2}
+  - moveBase: {fileID: 11400000, guid: 57b1eab83f7c3b748a72b20fa3b6acd6, type: 2}
+  - moveBase: {fileID: 11400000, guid: c1600f17069534d409b4546905a4f7e8, type: 2}
+  - moveBase: {fileID: 11400000, guid: cf8c4598d98c67147b27cc0785a3f2d9, type: 2}

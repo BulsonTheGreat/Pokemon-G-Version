@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Zangoose
+  m_EditorClassIdentifier: 
+  name: Zangoose
+  description: "The Cat Ferret Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 5f416132d7f5d9b4ba6cad8481ef40c0, type: 3}
+  backSprite: {fileID: 21300000, guid: e44c3f9ade125a941a41c22e608e2d0d, type: 3}
+  menuSprite: {fileID: 21300000, guid: ad9573b3544eda2448f0a380a4f7b718, type: 3}
+  type1: 1
+  type2: 0
+  maxHP: 73
+  attack: 115
+  defense: 60
+  spAttack: 60
+  spDefense: 60
+  speed: 90
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: d29b509490ae71b41afb2cd2037453e6, type: 2}
+  - moveBase: {fileID: 11400000, guid: 15ba76e3c871a574ca55937dd3de0ea1, type: 2}
+  - moveBase: {fileID: 11400000, guid: f917d94f6b76c5841953cff085297a66, type: 2}
+  - moveBase: {fileID: 11400000, guid: ca877bb411ce6bd4e90543e9ffecd0c2, type: 2}

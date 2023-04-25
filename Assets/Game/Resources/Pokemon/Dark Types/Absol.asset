@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Absol
+  m_EditorClassIdentifier: 
+  name: Absol
+  description: "The Disaster Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 9eb52d0c9a54e15448868d3cf3fecdf1, type: 3}
+  backSprite: {fileID: 21300000, guid: 5140373d4bf3fac4988f49e2abdbc37a, type: 3}
+  menuSprite: {fileID: 21300000, guid: dcb35b5a3ee5eac4d954e0d6281798ed, type: 3}
+  type1: 11
+  type2: 0
+  maxHP: 75
+  attack: 130
+  defense: 60
+  spAttack: 75
+  spDefense: 60
+  speed: 95
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2a388ca3305a94c4497bee97f63f0656, type: 2}
+  - moveBase: {fileID: 11400000, guid: 87a6dfb451667a14b8f613589cfa4cc8, type: 2}
+  - moveBase: {fileID: 11400000, guid: ca877bb411ce6bd4e90543e9ffecd0c2, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3a6940ee3a5649b44b200509c3975d21, type: 2}

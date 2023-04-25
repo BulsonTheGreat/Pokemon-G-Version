@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Electabuzz
+  m_EditorClassIdentifier: 
+  name: Electabuzz
+  description: "The Electric Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 339df3e194e70a142b580a7252219eaa, type: 3}
+  backSprite: {fileID: 21300000, guid: fafe9414247edbe488cb85fda5b9b3dc, type: 3}
+  menuSprite: {fileID: 21300000, guid: ee8e7ea748ba1094fb6011e8564b1f18, type: 3}
+  type1: 5
+  type2: 0
+  maxHP: 65
+  attack: 83
+  defense: 57
+  spAttack: 95
+  spDefense: 85
+  speed: 105
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: db59fa77948dd9d4a91c4c68fb380f69, type: 2}
+  - moveBase: {fileID: 11400000, guid: 881a4489f2abcfc4db8c4c709ea549ba, type: 2}
+  - moveBase: {fileID: 11400000, guid: df182d4ea4cfd8442956bbf8f269fcea, type: 2}
+  - moveBase: {fileID: 11400000, guid: f518f46ce304b654690e99f05e9a15c2, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Croconaw
+  m_EditorClassIdentifier: 
+  name: Croconaw
+  description: "The Big Jaw Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 585f70e0c3107f34d8cec0374067f8cd, type: 3}
+  backSprite: {fileID: 21300000, guid: 8337282bc73284f4d8c41733b17244e0, type: 3}
+  menuSprite: {fileID: 21300000, guid: 91b9d975137a0f04c9f5b8f1bff920a7, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 65
+  attack: 80
+  defense: 80
+  spAttack: 59
+  spDefense: 63
+  speed: 58
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: adf10e9892a25884dac6ce2b22d8cdf4, type: 2}
+  - moveBase: {fileID: 11400000, guid: 351908b63e18f064f91d91022ab84730, type: 2}
+  - moveBase: {fileID: 11400000, guid: 0f34126d398241949b4d0ec64531951d, type: 2}
+  - moveBase: {fileID: 11400000, guid: e37147da17a85c749abce0de2cb8ef32, type: 2}

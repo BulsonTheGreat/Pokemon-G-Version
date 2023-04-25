@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Carnivine
+  m_EditorClassIdentifier: 
+  name: Carnivine
+  description: "The Bug Catcher Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: c88e60038d43059449c5e9fb30b3df83, type: 3}
+  backSprite: {fileID: 21300000, guid: 68a73ad79448b884e829a3835ab0aed8, type: 3}
+  menuSprite: {fileID: 21300000, guid: 4ecda132e3100a342ac058e7519643d3, type: 3}
+  type1: 4
+  type2: 0
+  maxHP: 94
+  attack: 110
+  defense: 82
+  spAttack: 95
+  spDefense: 82
+  speed: 56
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 7e431b163f765214b8b9edbb2d5f7f61, type: 2}
+  - moveBase: {fileID: 11400000, guid: 825de095401018c4ba3ebb67c7730de0, type: 2}
+  - moveBase: {fileID: 11400000, guid: ff9e48ef8a446084f860c43b5464f573, type: 2}
+  - moveBase: {fileID: 11400000, guid: e49434b7e3f18854ca293ccdc8edfb57, type: 2}

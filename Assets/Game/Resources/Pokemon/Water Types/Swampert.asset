@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Swampert
+  m_EditorClassIdentifier: 
+  name: Swampert
+  description: "The Mud Fish Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 7542bab423d062a40bc93d1599de3a95, type: 3}
+  backSprite: {fileID: 21300000, guid: 1069571b6be5bb04a938bde1e890913e, type: 3}
+  menuSprite: {fileID: 21300000, guid: 40fb80cbde81047478b54af6c18a7fb5, type: 3}
+  type1: 3
+  type2: 8
+  maxHP: 100
+  attack: 110
+  defense: 90
+  spAttack: 85
+  spDefense: 90
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: adf10e9892a25884dac6ce2b22d8cdf4, type: 2}
+  - moveBase: {fileID: 11400000, guid: 25ca3f3930ce1124c863e2575f19d83f, type: 2}
+  - moveBase: {fileID: 11400000, guid: df182d4ea4cfd8442956bbf8f269fcea, type: 2}
+  - moveBase: {fileID: 11400000, guid: 62ff112fe50f5d74e899a3f4bc213f98, type: 2}

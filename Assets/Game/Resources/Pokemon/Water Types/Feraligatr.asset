@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Feraligatr
+  m_EditorClassIdentifier: 
+  name: Feraligatr
+  description: "The Big Jaw Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 00fafde47ca15b548a7543ab303d3bdf, type: 3}
+  backSprite: {fileID: 21300000, guid: b07bdf058289244409321caf9a76e4e9, type: 3}
+  menuSprite: {fileID: 21300000, guid: 1ec24390d3d70874e972efec449c7d87, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 85
+  attack: 105
+  defense: 100
+  spAttack: 79
+  spDefense: 83
+  speed: 78
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c74cc6754559eb94fbd4f56460cea7de, type: 2}
+  - moveBase: {fileID: 11400000, guid: 825de095401018c4ba3ebb67c7730de0, type: 2}
+  - moveBase: {fileID: 11400000, guid: df182d4ea4cfd8442956bbf8f269fcea, type: 2}
+  - moveBase: {fileID: 11400000, guid: 38cd1c29dbda58c418c1aa18e686239c, type: 2}

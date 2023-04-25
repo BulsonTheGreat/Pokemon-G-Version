@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Haunter
+  m_EditorClassIdentifier: 
+  name: Haunter
+  description: "The Gas Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 5c0701b7dd0058f4498c76050afc49fd, type: 3}
+  backSprite: {fileID: 21300000, guid: d880d4ce5fabe324a876d9419fdac50b, type: 3}
+  menuSprite: {fileID: 21300000, guid: 636685ec8fee7fb4ea09e67f99260cd8, type: 3}
+  type1: 12
+  type2: 7
+  maxHP: 45
+  attack: 50
+  defense: 45
+  spAttack: 115
+  spDefense: 55
+  speed: 95
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 9aa54c4d56d4b7b4db28856e15d5c33a, type: 2}
+  - moveBase: {fileID: 11400000, guid: ff9e48ef8a446084f860c43b5464f573, type: 2}
+  - moveBase: {fileID: 11400000, guid: c41ac4ac74776aa40b6abc6e3af9d5cd, type: 2}
+  - moveBase: {fileID: 11400000, guid: 36ab6e9f785ef804797f1d5a5b1d6806, type: 2}

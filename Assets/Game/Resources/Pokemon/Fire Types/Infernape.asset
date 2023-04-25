@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Infernape
+  m_EditorClassIdentifier: 
+  name: Infernape
+  description: "The Flame Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: ea4db7fe75f34df40b8a9cda8527371f, type: 3}
+  backSprite: {fileID: 21300000, guid: 67c5c71a31551754280ad05f79af5aaa, type: 3}
+  menuSprite: {fileID: 21300000, guid: b15ffa22fd74e144b93c50d21d2cdc05, type: 3}
+  type1: 2
+  type2: 13
+  maxHP: 76
+  attack: 104
+  defense: 71
+  spAttack: 104
+  spDefense: 71
+  speed: 108
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f10eed9c02ba4cd44be048b0ad5373b8, type: 2}
+  - moveBase: {fileID: 11400000, guid: f917d94f6b76c5841953cff085297a66, type: 2}
+  - moveBase: {fileID: 11400000, guid: fc9ed205effc11b4ca668398f106a37c, type: 2}
+  - moveBase: {fileID: 11400000, guid: ba9238adca032894784e8aa070c1e7be, type: 2}

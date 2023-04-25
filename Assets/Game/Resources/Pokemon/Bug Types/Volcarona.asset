@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Volcarona
+  m_EditorClassIdentifier: 
+  name: Volcarona
+  description: "The Sun Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 6caede6efb9daf943be11404dc913348, type: 3}
+  backSprite: {fileID: 21300000, guid: 559f4e8daa565b34cacf4c1a5234c818, type: 3}
+  menuSprite: {fileID: 21300000, guid: 6ee079f51711fe6438dc4591c0e671ca, type: 3}
+  type1: 6
+  type2: 2
+  maxHP: 85
+  attack: 60
+  defense: 65
+  spAttack: 135
+  spDefense: 105
+  speed: 100
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 89421a22445fbac4b8d34934ff74bf27, type: 2}
+  - moveBase: {fileID: 11400000, guid: f10eed9c02ba4cd44be048b0ad5373b8, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4ae00ff6d1d5fe54b9b9c25cee4798a1, type: 2}
+  - moveBase: {fileID: 11400000, guid: ef1b9a1f26ff4554e9623e50c244ff49, type: 2}

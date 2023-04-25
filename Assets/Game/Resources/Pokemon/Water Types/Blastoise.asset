@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Blastoise
+  m_EditorClassIdentifier: 
+  name: Blastoise
+  description: "The Shellfish Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 35f20b9e860d9194da8ae7259dd833cd, type: 3}
+  backSprite: {fileID: 21300000, guid: 083d2e6c5309c8f47ab168b9ce633652, type: 3}
+  menuSprite: {fileID: 21300000, guid: ccaf3dc2d8d975145bafea2e62edff40, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 79
+  attack: 103
+  defense: 120
+  spAttack: 135
+  spDefense: 115
+  speed: 78
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: cb2416c72fed5e0479f3d0e5b9011460, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4e92b90d1b3de354395a9acc61c73231, type: 2}
+  - moveBase: {fileID: 11400000, guid: e7886208ba73e4f43be1d0189abd3ee7, type: 2}
+  - moveBase: {fileID: 11400000, guid: c1600f17069534d409b4546905a4f7e8, type: 2}

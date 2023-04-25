@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Yamask
+  m_EditorClassIdentifier: 
+  name: Yamask
+  description: "The Spirit Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: f7bfc20046787c54c8344995c61980ff, type: 3}
+  backSprite: {fileID: 21300000, guid: 7fbc48418090cb249b69990ab21fca4c, type: 3}
+  menuSprite: {fileID: 21300000, guid: 11ac3fefa9376bf4caa8a8b2dc74d2e2, type: 3}
+  type1: 12
+  type2: 0
+  maxHP: 58
+  attack: 30
+  defense: 85
+  spAttack: 55
+  spDefense: 75
+  speed: 30
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 9aa54c4d56d4b7b4db28856e15d5c33a, type: 2}
+  - moveBase: {fileID: 11400000, guid: 0dfa02f224fefa7418e1686b50d7b652, type: 2}
+  - moveBase: {fileID: 11400000, guid: f74a2099393fbd3438ad8541d84ee0c5, type: 2}
+  - moveBase: {fileID: 11400000, guid: 28bb4182fc5322f47851e4639a588e2a, type: 2}

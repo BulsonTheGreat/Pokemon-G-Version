@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Pumpkaboo
+  m_EditorClassIdentifier: 
+  name: Pumpkaboo
+  description: "The Pumpkin Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 963c4a42138b21c4abd520feb19b97d0, type: 3}
+  backSprite: {fileID: 21300000, guid: 645678e7158476f4e80ac567c8399b29, type: 3}
+  menuSprite: {fileID: 21300000, guid: bdc8d2cb2640f764593b49da43d07897, type: 3}
+  type1: 12
+  type2: 4
+  maxHP: 69
+  attack: 76
+  defense: 70
+  spAttack: 64
+  spDefense: 55
+  speed: 51
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2f0a8d72ded70834ea410020452f273f, type: 2}
+  - moveBase: {fileID: 11400000, guid: 9aa54c4d56d4b7b4db28856e15d5c33a, type: 2}
+  - moveBase: {fileID: 11400000, guid: 576d5480c1408fc4b9c4c757acee2df9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3bf9bd7f1f049ab4c8475faecc8063db, type: 2}

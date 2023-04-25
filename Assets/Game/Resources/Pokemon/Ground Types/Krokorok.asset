@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Krokorok
+  m_EditorClassIdentifier: 
+  name: Krokorok
+  description: "The Desert Croc Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: d64dc70eed10ddb44b934ec606bd34ce, type: 3}
+  backSprite: {fileID: 21300000, guid: c9bb8ab084612014985c604368c71c22, type: 3}
+  menuSprite: {fileID: 21300000, guid: 7d150b1a156185149b96d6e93ebb7db7, type: 3}
+  type1: 8
+  type2: 11
+  maxHP: 60
+  attack: 82
+  defense: 45
+  spAttack: 45
+  spDefense: 45
+  speed: 74
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: aad63647cad65524691055ef93525104, type: 2}
+  - moveBase: {fileID: 11400000, guid: 351908b63e18f064f91d91022ab84730, type: 2}
+  - moveBase: {fileID: 11400000, guid: 0550580e9fdc4e948a301a0497dfd8c1, type: 2}
+  - moveBase: {fileID: 11400000, guid: 68828dbe138282a4f9f00faad95f0e6f, type: 2}

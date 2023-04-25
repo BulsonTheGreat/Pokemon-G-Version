@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Ivysaur
+  m_EditorClassIdentifier: 
+  name: Ivysaur
+  description: The Seed Pokemon
+  frontSprite: {fileID: 21300000, guid: c83ad3f54cb4b564496a8368dd4eb961, type: 3}
+  backSprite: {fileID: 21300000, guid: fc382483ca7abce4a8c94cd304b251f7, type: 3}
+  menuSprite: {fileID: 21300000, guid: e06fd2e6ccac3964a81b039e545303f2, type: 3}
+  type1: 4
+  type2: 7
+  maxHP: 60
+  attack: 62
+  defense: 63
+  spAttack: 80
+  spDefense: 80
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 027c6c0cf1ebbdb4394aa17be11630c8, type: 2}
+  - moveBase: {fileID: 11400000, guid: f6433fcb52b4cfb4bb9fd626f064d425, type: 2}
+  - moveBase: {fileID: 11400000, guid: 30765db2c26be494ca8082753aedec85, type: 2}
+  - moveBase: {fileID: 11400000, guid: cf8c4598d98c67147b27cc0785a3f2d9, type: 2}

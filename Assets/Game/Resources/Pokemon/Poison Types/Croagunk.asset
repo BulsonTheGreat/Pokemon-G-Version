@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Croagunk
+  m_EditorClassIdentifier: 
+  name: Croagunk
+  description: "The Toxic Mouth Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 220869ea7fb9b7245bc24e9a94552f9f, type: 3}
+  backSprite: {fileID: 21300000, guid: d18680f7732d47c43af2ca79d4c0378c, type: 3}
+  menuSprite: {fileID: 21300000, guid: b17a1a5b0949b234582c954f312fb907, type: 3}
+  type1: 7
+  type2: 13
+  maxHP: 48
+  attack: 71
+  defense: 50
+  spAttack: 71
+  spDefense: 50
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 17dff4ae401e3cf479a0790256a0e059, type: 2}
+  - moveBase: {fileID: 11400000, guid: 68828dbe138282a4f9f00faad95f0e6f, type: 2}
+  - moveBase: {fileID: 11400000, guid: 6bcbb765fa30d7b4a9591eccdefae684, type: 2}
+  - moveBase: {fileID: 11400000, guid: 64863c5599241c64fa4eaee85819c175, type: 2}

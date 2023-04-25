@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Umbreon
+  m_EditorClassIdentifier: 
+  name: Umbreon
+  description: "The Moonlight Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 0b50b9e41a71392409a776999f5f19d4, type: 3}
+  backSprite: {fileID: 21300000, guid: eb0a5e866de2f584783596cee25ebd9a, type: 3}
+  menuSprite: {fileID: 21300000, guid: 0a04af1adb17a06469299d50dad94c19, type: 3}
+  type1: 11
+  type2: 0
+  maxHP: 95
+  attack: 65
+  defense: 110
+  spAttack: 60
+  spDefense: 130
+  speed: 65
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: de3d1f3f4b68cfc41a07fbfd6a951106, type: 2}
+  - moveBase: {fileID: 11400000, guid: 8774a4c87fbb7b544b75382f538d217c, type: 2}
+  - moveBase: {fileID: 11400000, guid: f74a2099393fbd3438ad8541d84ee0c5, type: 2}
+  - moveBase: {fileID: 11400000, guid: 881a4489f2abcfc4db8c4c709ea549ba, type: 2}

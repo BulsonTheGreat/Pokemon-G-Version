@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Skiddo
+  m_EditorClassIdentifier: 
+  name: Skiddo
+  description: "The Mount Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: dde365aa31428b64eb888c7c565dff3a, type: 3}
+  backSprite: {fileID: 21300000, guid: a7c6efbd182374b45b6cad1fc11fd4f0, type: 3}
+  menuSprite: {fileID: 21300000, guid: 655d012fa23d0e14aa893ded97494a52, type: 3}
+  type1: 4
+  type2: 0
+  maxHP: 66
+  attack: 65
+  defense: 48
+  spAttack: 62
+  spDefense: 57
+  speed: 52
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 2f0a8d72ded70834ea410020452f273f, type: 2}
+  - moveBase: {fileID: 11400000, guid: cf8c4598d98c67147b27cc0785a3f2d9, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4aafecf0524f94540a2db5ee6de52109, type: 2}
+  - moveBase: {fileID: 11400000, guid: 3b0230f5a3cf69d45b0b2fe9f2cc45a2, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Cloyster
+  m_EditorClassIdentifier: 
+  name: Cloyster
+  description: "The Bivalve Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 90d409a4e97454e48afb8779d52be5db, type: 3}
+  backSprite: {fileID: 21300000, guid: fc400f4b610f2894190abb7361b1290e, type: 3}
+  menuSprite: {fileID: 21300000, guid: b2ae1e8ee9ca12045961a816a056094a, type: 3}
+  type1: 3
+  type2: 15
+  maxHP: 50
+  attack: 95
+  defense: 180
+  spAttack: 85
+  spDefense: 45
+  speed: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 3686f97698ed8be4f9bcd1e5aedfd4c4, type: 2}
+  - moveBase: {fileID: 11400000, guid: 0333599c377a52844875920f05bcad7d, type: 2}
+  - moveBase: {fileID: 11400000, guid: c1600f17069534d409b4546905a4f7e8, type: 2}
+  - moveBase: {fileID: 11400000, guid: 171f350a66669c44bb5cba9309f67e68, type: 2}

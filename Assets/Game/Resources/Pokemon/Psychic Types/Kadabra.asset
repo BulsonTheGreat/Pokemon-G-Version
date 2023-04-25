@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Kadabra
+  m_EditorClassIdentifier: 
+  name: Kadabra
+  description: "The Psi Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 147815c433f1ffc49be53f737d05cf4a, type: 3}
+  backSprite: {fileID: 21300000, guid: 9b32a3f00e1f8d34a8274ee2a791bcb0, type: 3}
+  menuSprite: {fileID: 21300000, guid: 221ac9486faf0fa4ea0e4dddf78bcfed, type: 3}
+  type1: 10
+  type2: 0
+  maxHP: 40
+  attack: 35
+  defense: 30
+  spAttack: 120
+  spDefense: 70
+  speed: 105
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 591e571c96e5f1246ad70fe33e9d00bd, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4f522c03728c4d04a906799baca77efc, type: 2}
+  - moveBase: {fileID: 11400000, guid: 28bb4182fc5322f47851e4639a588e2a, type: 2}
+  - moveBase: {fileID: 11400000, guid: 6113c5090e10d984b9b4647c376d4f86, type: 2}

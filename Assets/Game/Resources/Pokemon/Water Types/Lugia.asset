@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Lugia
+  m_EditorClassIdentifier: 
+  name: Lugia
+  description: "The Diving Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: fcab3952ec1c71242878932c7ce755d4, type: 3}
+  backSprite: {fileID: 21300000, guid: 6a967f7ca3ff5f043a3aa7cbd6890fe7, type: 3}
+  menuSprite: {fileID: 21300000, guid: 282ca7c315102c441a998052f806bf45, type: 3}
+  type1: 3
+  type2: 9
+  maxHP: 106
+  attack: 90
+  defense: 130
+  spAttack: 90
+  spDefense: 154
+  speed: 110
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: cb2416c72fed5e0479f3d0e5b9011460, type: 2}
+  - moveBase: {fileID: 11400000, guid: 07c2299fd989d1340a3c4708d1a46382, type: 2}
+  - moveBase: {fileID: 11400000, guid: 469c45cfd347f474fade8275f8c438d1, type: 2}
+  - moveBase: {fileID: 11400000, guid: e49434b7e3f18854ca293ccdc8edfb57, type: 2}

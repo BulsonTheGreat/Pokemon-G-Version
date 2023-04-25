@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Magnezone
+  m_EditorClassIdentifier: 
+  name: Magnezone
+  description: "The Magnet Area Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 4b2e8caf2b953cc4994d50cbcbe478a4, type: 3}
+  backSprite: {fileID: 21300000, guid: 7be102c8c140acd4a859c676c46e5464, type: 3}
+  menuSprite: {fileID: 21300000, guid: 00429c513a5dccb44b1268e74c0976aa, type: 3}
+  type1: 5
+  type2: 16
+  maxHP: 95
+  attack: 70
+  defense: 115
+  spAttack: 130
+  spDefense: 90
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 29a364953be93df41a9f81ab83517188, type: 2}
+  - moveBase: {fileID: 11400000, guid: e4e63b9a052ad214aaaf979fb4cdd6ee, type: 2}
+  - moveBase: {fileID: 11400000, guid: f518f46ce304b654690e99f05e9a15c2, type: 2}
+  - moveBase: {fileID: 11400000, guid: 9ee8caddacaaaee49a51639f633800cc, type: 2}

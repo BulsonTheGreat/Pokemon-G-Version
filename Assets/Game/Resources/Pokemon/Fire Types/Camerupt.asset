@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Camerupt
+  m_EditorClassIdentifier: 
+  name: Camerupt
+  description: "The Eruption Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 41ea90e4e51aa1c4f8f9d062fa103d21, type: 3}
+  backSprite: {fileID: 21300000, guid: b083ea0393b8314478edbf031ed60f00, type: 3}
+  menuSprite: {fileID: 21300000, guid: b9d9dfbf03ab7814686d6ab16facf466, type: 3}
+  type1: 2
+  type2: 8
+  maxHP: 70
+  attack: 100
+  defense: 70
+  spAttack: 105
+  spDefense: 75
+  speed: 40
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f10eed9c02ba4cd44be048b0ad5373b8, type: 2}
+  - moveBase: {fileID: 11400000, guid: 25ca3f3930ce1124c863e2575f19d83f, type: 2}
+  - moveBase: {fileID: 11400000, guid: 1cb8febf07399cc4c8e8867b324a3546, type: 2}
+  - moveBase: {fileID: 11400000, guid: ef1b9a1f26ff4554e9623e50c244ff49, type: 2}

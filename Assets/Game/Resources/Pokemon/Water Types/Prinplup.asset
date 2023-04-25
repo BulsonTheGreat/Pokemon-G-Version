@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Prinplup
+  m_EditorClassIdentifier: 
+  name: Prinplup
+  description: "The Penguin Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 77fda5068faec2d40a2d5fabd7de5b97, type: 3}
+  backSprite: {fileID: 21300000, guid: ce043fdf94cfcfe429e1328495a84550, type: 3}
+  menuSprite: {fileID: 21300000, guid: ca8996cd0f53d6e4394cdad734046166, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 64
+  attack: 66
+  defense: 68
+  spAttack: 81
+  spDefense: 76
+  speed: 50
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 380154c256b0b014bafc4b616728037d, type: 2}
+  - moveBase: {fileID: 11400000, guid: a612c82378138fc498bcb2c3a31ef771, type: 2}
+  - moveBase: {fileID: 11400000, guid: fca52bebb191d5449aa8456d9119e086, type: 2}
+  - moveBase: {fileID: 11400000, guid: 36ab6e9f785ef804797f1d5a5b1d6806, type: 2}

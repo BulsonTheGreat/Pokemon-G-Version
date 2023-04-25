@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Poliwhirl
+  m_EditorClassIdentifier: 
+  name: Poliwhirl
+  description: "The Tadpole Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: f3f8b9c115c05ae46a1e1f9002142522, type: 3}
+  backSprite: {fileID: 21300000, guid: dd4b4600c238e264d9ecadb97620516a, type: 3}
+  menuSprite: {fileID: 21300000, guid: e3c5fef16e497194185e484f2e5fcb52, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 65
+  attack: 65
+  defense: 65
+  spAttack: 50
+  spDefense: 50
+  speed: 90
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 8599335e45d2d4b45b102d5f45de6cc9, type: 2}
+  - moveBase: {fileID: 11400000, guid: bb0af76c291bdc342bb289a100f09bf4, type: 2}
+  - moveBase: {fileID: 11400000, guid: 64863c5599241c64fa4eaee85819c175, type: 2}
+  - moveBase: {fileID: 11400000, guid: c41ac4ac74776aa40b6abc6e3af9d5cd, type: 2}

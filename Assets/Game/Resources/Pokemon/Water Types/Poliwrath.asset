@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Poliwrath
+  m_EditorClassIdentifier: 
+  name: Poliwrath
+  description: "The Tadpole Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: ed726b87b16e712429079d09d8e594d6, type: 3}
+  backSprite: {fileID: 21300000, guid: 046464648cf9b354087eea0480883be3, type: 3}
+  menuSprite: {fileID: 21300000, guid: 1daf5c44a73735b4e9fae1820fb77b15, type: 3}
+  type1: 3
+  type2: 13
+  maxHP: 90
+  attack: 95
+  defense: 95
+  spAttack: 70
+  spDefense: 90
+  speed: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: adf10e9892a25884dac6ce2b22d8cdf4, type: 2}
+  - moveBase: {fileID: 11400000, guid: 7e02ed7a290b17a44b24ba3af526a325, type: 2}
+  - moveBase: {fileID: 11400000, guid: d9efd407a707aac4cbcb98c3671303c7, type: 2}
+  - moveBase: {fileID: 11400000, guid: cf8c4598d98c67147b27cc0785a3f2d9, type: 2}

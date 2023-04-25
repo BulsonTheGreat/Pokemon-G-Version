@@ -6,6 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Actual Game/Main menu.unity
+    guid: 22f3094ad4bec17428ce9863923c9739
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: cd99bdc2cfcca184da7242062406f070
+  - enabled: 1
+    path: Assets/Scenes/Actual Game/Proffesor's lab.unity
+    guid: b3aef853e9d0b8648b8c3fd3a6b7d949
+  - enabled: 1
+    path: Assets/Scenes/Actual Game/Hometown.unity
+    guid: 61dc4ce892ad3f242aca4d082936b8fc
+  - enabled: 1
+    path: Assets/Scenes/Actual Game/First floor.unity
+    guid: 9ff60f64cf94aad47a1bb89e2d1881d3
+  - enabled: 1
+    path: Assets/Scenes/Actual Game/Second floor.unity
+    guid: b730fbe18ae08cd4195a5412c445725d
+  - enabled: 1
+    path: Assets/Scenes/Actual Game/Final floor.unity
+    guid: 461f419ac3b685d429247e349a67db74
+  - enabled: 1
+    path: Assets/Scenes/Actual Game/Closet.unity
+    guid: 19ec54118501386469f3c6acf9b912be
   m_configObjects: {}

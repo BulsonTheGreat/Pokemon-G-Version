@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Sealeo
+  m_EditorClassIdentifier: 
+  name: Sealeo
+  description: "The Ball Roll Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: e6445e898cd13284784fb045d7da37b1, type: 3}
+  backSprite: {fileID: 21300000, guid: a4c75df44c73ff541bc95480150524aa, type: 3}
+  menuSprite: {fileID: 21300000, guid: 0e63cac9faac2764a844dbd1fa7c7f7c, type: 3}
+  type1: 15
+  type2: 3
+  maxHP: 90
+  attack: 60
+  defense: 70
+  spAttack: 75
+  spDefense: 70
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 0b1cdea4fa5e3414fad6f80bd96a7d54, type: 2}
+  - moveBase: {fileID: 11400000, guid: 8599335e45d2d4b45b102d5f45de6cc9, type: 2}
+  - moveBase: {fileID: 11400000, guid: cf8c4598d98c67147b27cc0785a3f2d9, type: 2}
+  - moveBase: {fileID: 11400000, guid: d9efd407a707aac4cbcb98c3671303c7, type: 2}

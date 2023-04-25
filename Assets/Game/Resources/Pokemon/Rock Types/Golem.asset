@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Golem
+  m_EditorClassIdentifier: 
+  name: Golem
+  description: "The Megaton Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 60c04e2abacfe534d993635723f54ced, type: 3}
+  backSprite: {fileID: 21300000, guid: 271c638e9c4cef142932f2c7533ac25e, type: 3}
+  menuSprite: {fileID: 21300000, guid: 3240531eb46d1de48849f1fc752ccb4a, type: 3}
+  type1: 14
+  type2: 8
+  maxHP: 80
+  attack: 120
+  defense: 130
+  spAttack: 55
+  spDefense: 65
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1cb8febf07399cc4c8e8867b324a3546, type: 2}
+  - moveBase: {fileID: 11400000, guid: 25ca3f3930ce1124c863e2575f19d83f, type: 2}
+  - moveBase: {fileID: 11400000, guid: 7d2e9914991bb6845922f255f6979671, type: 2}
+  - moveBase: {fileID: 11400000, guid: b638d1e85c490f94689aa58c9caa44e3, type: 2}

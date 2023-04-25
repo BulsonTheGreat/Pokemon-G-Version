@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19623bbafabd6546bf7d662568da968, type: 3}
+  m_Name: Jellicent
+  m_EditorClassIdentifier: 
+  name: Jellicent
+  description: "The Floating Pok\xE9mon"
+  frontSprite: {fileID: 21300000, guid: 592937dac0c130d4792c8a6bd7cd4265, type: 3}
+  backSprite: {fileID: 21300000, guid: ef7cb308fe889f54ca15285af8099a5f, type: 3}
+  menuSprite: {fileID: 21300000, guid: fc2f9a4cafea36d4eafe2eb64384e01e, type: 3}
+  type1: 3
+  type2: 12
+  maxHP: 100
+  attack: 60
+  defense: 70
+  spAttack: 95
+  spDefense: 105
+  speed: 60
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: d2dda196dd0e8d040a2bbe27d963c709, type: 2}
+  - moveBase: {fileID: 11400000, guid: f6f54f4fe137a3543bf2a111d63c6671, type: 2}
+  - moveBase: {fileID: 11400000, guid: e6efa0bf6a4729e4aa0a5eded9e65cf4, type: 2}
+  - moveBase: {fileID: 11400000, guid: 4e92b90d1b3de354395a9acc61c73231, type: 2}
