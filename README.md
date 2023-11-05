@@ -20,7 +20,7 @@ Tilesets were taken from google graphic, they don't come from one person.
 
 Initial balance patch (for fans of original series games)
 New type chart: bug is super effective against fairy, grass resists fairy, poison is super effective against water, ice resists ground and flying (because.....reasons)
-/*                   NOR  FIR   WAT   GRS   ELE   BUG   POI   GRO   FLY   PSY   DAR   GHO   FIG   ROC   ICE   STE   DRA   FAI */
+/*                           NOR  FIR   WAT   GRS   ELE   BUG   POI   GRO   FLY   PSY   DAR   GHO   FIG   ROC   ICE   STE   DRA   FAI */
         /*NOR*/ new float[] { 1f, 1f,   1f,   1f,   1f,   1f,   1f,   1f,   1f,   1f,   1f,   0f,   1f,   0.5f, 1f,   0.5f, 1f,   1f   },
         /*FIR*/ new float[] { 1f, 0.5f, 0.5f, 2f,   1f,   2f,   1f,   1f,   1f,   1f,   1f,   1f,   1f,   0.5f, 2f,   2f,   0.5f, 1f   },
         /*WAT*/ new float[] { 1f, 2f,   0.5f, 0.5f, 1f,   1f,   1f,   2f,   1f,   1f,   1f,   1f,   1f,   2f,   1f,   1f,   0.5f, 1f   },
